@@ -8,8 +8,8 @@ Created on Sun Jul  1 16:38:37 2018
 import pandas as pd
 import numpy as np
 import os
-os.chdir('G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2018_NewData\\3_CalcBR')
-outputpath = 'G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2018_NewData\\4_MergedData_BR\\'
+os.chdir('path/to/3_CalcBR')
+outputpath = 'path/to/4_MergedData_BR/'
 filelist = os.listdir()
 namelist = [i.split(' ', 1)[0] for i in filelist]
 name_unique = np.unique(namelist)
