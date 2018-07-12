@@ -10,8 +10,8 @@ import pandas as pd
 from tqdm import tqdm
 from biosppy.signals import ecg
 
-os.chdir('G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2018_NewData\\2_SycronizedData')
-outputpath = 'G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2018_NewData\\3_CalcHR\\'
+os.chdir('path/to/2_SycronizedData')
+outputpath = 'path/to/3_CalcHR/'
 
 
 for file in tqdm(os.listdir()):
