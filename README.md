@@ -25,6 +25,6 @@ biosppy library should be installed first.
 Similar to the HR, this sript can calculate the respiratory rate, sampling_rate=32.
 
 ## 2.Converge subjects result.py
-Converge data from the same subject into one table.
+Converge data from the same subject into one table, adding the 'subject' column.
 
 ![Image of final](https://github.com/XiangGuo1992/Infiniti_physiological/blob/master/image/Merged.JPG)
