@@ -9,12 +9,12 @@ import os
 import numpy as np
 import pandas as pd
 from pandas import read_csv
-os.chdir('G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2017_test\\0_RawOutput\\')
-outputpath = ('G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2017_test\\1_CleanedData\\')    
+os.chdir('path/to/0_RawOutput')
+outputpath = ('path/to/1_CleanedData')    
 listfolder = os.listdir() 
 
 for folder in listfolder:
-    os.chdir('G:\\Resource for Xiang\\Lian Cui experiment\\Physiological data\\2017_test\\0_RawOutput\\'+folder) 
+    os.chdir('path/to/0_RawOutput'+folder) 
     listfile = os.listdir()
     for i in listfile:
         f = open(i,"r")
